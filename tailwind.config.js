@@ -10,7 +10,7 @@ export default {
         lideranca:
           "linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url('/assets/lideranca.jpg')",
         crescimento:
-          "linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url('/assets/crescimento.jpg')",
+          'linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url("/assets/crescimento.jpg")',
         jornada:
           "linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url('/assets/jornada.jpg')",
         atualmente:

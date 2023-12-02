@@ -4,7 +4,16 @@ export const Main = () => {
   const { t } = useTranslation()
 
   return (
-    <main id="inicio" className="main-bg flex items-center justify-center ">
+    <main
+      id="inicio"
+      style={{
+        background: `linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url("/assets/img06.jpg")`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+      className="main-bg flex items-center justify-center"
+    >
       <div className="flex flex-col items-center text-white text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
           {t("main.title")}

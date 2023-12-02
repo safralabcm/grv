@@ -81,12 +81,7 @@ body {
 }
 
 .main-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("/public/assets/img06.jpg");
-  background-size: cover;
   height: 675px;
-  background-repeat: no-repeat;
-  background-position: center;
   margin: 0 auto;
 }
 

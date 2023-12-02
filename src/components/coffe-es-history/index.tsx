@@ -18,6 +18,7 @@ export const CoffeeEsBrazil = () => {
               especialmente o café tipo Conilon. O Espírito Santo é atualmente
               um dos principais estados produtores de café no Brasil."
           title="Atualmente"
+          nameImage="atualmente"
           className="bg-atualmente"
         />
         <HistoryImage
@@ -26,6 +27,7 @@ export const CoffeeEsBrazil = () => {
               pela crise cafeeira, levando a um declínio na produção e à
               necessidade de diversificação econômica."
           title="Boom e crise"
+          nameImage="boom"
           className="bg-boom"
         />
         <HistoryImage
@@ -34,6 +36,7 @@ export const CoffeeEsBrazil = () => {
               começou a se expandir no final do século XIX, adaptando-se bem às
               condições climáticas e geográficas favoráveis do estado."
           title="Sucesso"
+          nameImage="sucesso"
           className="bg-sucesso"
         />
       </div>

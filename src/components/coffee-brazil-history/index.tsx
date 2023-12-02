@@ -18,7 +18,8 @@ export const CoffeeHistoryBrazil = () => {
               continua desempenhando um papel fundamental na economia brasileira
               e é parte importante da identidade cultural do país."
           title="Liderança Mundial"
-          className="bg-lideranca"
+          nameImage="lideranca"
+          // className="bg-lideranca"
         />
         <HistoryImage
           content="A produção de café no Brasil passou por várias fases ao longo dos
@@ -28,6 +29,7 @@ export const CoffeeHistoryBrazil = () => {
               XX. Isso levou o Brasil a diversificar sua economia e explorar
               outros setores."
           title="Crescimento"
+          nameImage="crescimento"
           className="bg-crescimento"
         />
         <HistoryImage
@@ -38,6 +40,7 @@ export const CoffeeHistoryBrazil = () => {
               algumas áreas, mas logo se espalhou, tornando-se a principal
               cultura e fonte de riqueza do país."
           title="Jornada"
+          nameImage="jornada"
           className="bg-jornada"
         />
       </div>
