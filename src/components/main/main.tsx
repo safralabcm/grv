@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from 'react-i18next'
 
 export const Main = () => {
   const { t } = useTranslation()
@@ -7,31 +7,28 @@ export const Main = () => {
     <main
       id="inicio"
       style={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url("/assets/img06.jpg")`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
+        background: `linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url("/assets/main-bg.jpg")`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
       }}
-      className="main-bg flex items-center justify-center"
+      className="flex items-center justify-center main-bg"
     >
-      <div className="flex flex-col items-center text-white text-center">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-          {t("main.title")}
+      <div className="flex flex-col items-center text-center text-white">
+        <h1 className="text-3xl font-bold leading-tight md:text-4xl lg:text-5xl">
+          {t('main.title')}
           <br />
-          {t("main.title2")}
+          {t('main.title2')}
         </h1>
         <p className="text-base lg:text-lg py-4 px-4 md:px-10 max-w-3xl text-[#D3D3D3]">
-          O aroma irresistível e o sabor excepcional do nosso café refletem o
-          sucesso da sua satisfação. Nossa marca se orgulha em criar momentos
-          memoráveis em cada xícara, cultivando o êxito através do seu
-          contentamento
+          {t('main.description')}
         </p>
 
         <a
           className="flex py-2 px-6 bg-[#1356a3] gap-1 text-white rounded-full text-lg mt-4 items-center"
           href="mailto:bruna@grvcoffee.com"
         >
-          Entre em contato
+          {t('main.contact')}
           <img src="/icons/envelope-simple.svg" className="phone-icon" />
         </a>
       </div>

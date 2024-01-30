@@ -1,6 +1,79 @@
 {
+  "header": {
+    "home": "Início",
+    "our-history": "Nossa história",
+    "our-services": "Nosso serviço",
+    "coffee-in-br": "História do café no BR",
+    "coffee-in-es": "História do café no ES",
+    "contact": "Contato"
+  },
   "main": {
     "title": "O nosso sucesso é fruto",
-    "title2": "da sua satisfação"
+    "title2": "da sua satisfação",
+    "description": "O aroma irresistível e o sabor excepcional do nosso café refletem o sucesso da sua satisfação. Nossa marca se orgulha em criar momentos memoráveis em cada xícara, cultivando o êxito através do seu contentamento",
+    "contact": "Entre em contato"
+  },
+  "who-we-are": {
+    "our-history": "Nossa História",
+    "text-one": "Desde 1987, quando o CEO da GRV iniciou sua jornada na comercialização de café, Grives se destacou pelo vasto conhecimento do mercado cafeeiro. Juntamente com sua equipe, a GRV oferece aos seus clientes uma moderna estratégia de trabalho, oferecendo informações precisas de mercado, previsões de safra e preços. Hoje, a empresa é líder no mercado de corretagem de café, reconhecida nacional e internacionalmente.",
+    "text-two": "O foco da GRV é proporcionar oportunidades que garantam a efetiva introdução de seus cafés nos mercados internacionais, auxiliando na pesquisa de mercado, análise de preços e, em última análise, dando aos nossos clientes o suporte para que tenham sucesso em escala nacional e internacional.",
+    "text-three": "A corretora de café se vale da experiência de seus traders para viabilizar projetos, apoiando-se em conhecimentos específicos do assunto, permitindo-lhes alocar os produtos certos, no momento certo e com custo compatível com a necessidade do cliente.",
+    "area-title-one": "Conheça nossas",
+    "area-title-two": "áreas",
+    "area-title-three": "de atuação",
+    "brokerage": "Corretagem",
+    "commercialization-coffess": "Comercialização de cafés comerciais",
+    "commercialization": "Comercialização",
+    "commercialization-fine-coffess": "Comercialização de cafés finos e especiais",
+    "markets": "Mercados físicos e futuro",
+    "verified-coffess": "Cafés verificados, certificados e orgânicos"
+  },
+  "our-services": {
+    "title": "Nossas qualidades",
+    "text": "O café tem uma grande variedade de tipos e sabores. O gosto é pessoal e difícil de capturar em palavras e descrições. Abaixo você encontra todas as qualidades com as quais nossa empresa trabalha."
+  },
+  "brazil-history": {
+    "title": "História do café no Brasil",
+    "leadership": {
+      "title": "Liderança Mundial",
+      "text": "Atualmente, o Brasil é o maior produtor e exportador de café do mundo, conhecido por sua qualidade e variedade. A cafeicultura continua desempenhando um papel fundamental na economia brasileira e é parte importante da identidade cultural do país"
+    },
+    "journey": {
+      "title": "Jornada",
+      "text": "A história do café no Brasil começou no século XVIII e está ligada à cultura e à economia do país. Acredita-se que o café tenha sido introduzido em 1727, quando um sargento contrabandeou sementes de café da Guiana Francesa. Inicialmente, seu cultivo era restrito a algumas áreas, mas logo se espalhou, tornando-se a principal cultura e fonte de riqueza do país."
+    },
+    "growth": {
+      "title": "Crescimento",
+      "text": "A produção de café no Brasil passou por várias fases ao longo dos anos, impulsionando a economia brasileira no início. No entanto, a dependência excessiva do café como principal produto de exportação trouxe desafios, especialmente durante a crise do café no século XX. Isso levou o Brasil a diversificar sua economia e explorar outros setores."
+    },
+    "brazil-world": {
+      "title": "Brasil x Mundo",
+      "text": "O Brasil representa quase 40% da produção mundial de café. Em segundo lugar está o Vietnã, com uma participação de mercado de quase 20%. O Arábica representa 55% da produção de café e o Robusta representa 45%. Os dois maiores destinos do café são os EUA e a Europa, representando o equivalente a 42% das exportações."
+    }
+  },
+  "es-history": {
+    "title": "História do café no Espírito Santo",
+    "emergence": {
+      "title": "Surgimento",
+      "text": "No Brasil, a semente de café chegou no Belém do Pará em 1727. Do Pará, o café foi levado para o Amazonas e Maranhão. Porém, não se adaptou a região. Em 1770 o café foi levado ao Rio de Janeiro. O cultivo dos cafezais capixabas ocorreu na metade do século XIX. A existência do Porto de Vitória beneficiou ainda mais o desenvolvimento econômico cafeeiro para o Espírito Santo. As primeiras sementes de Conilon foram plantadas no município de Cachoeiro de Itapemirim."
+    },
+    "boom-downturn": {
+      "title": "Boom e Crise",
+      "text": "O Espírito Santo experimentou um grande boom cafeeiro no final do século XIX e início do século XX. No entanto, também foi afetado pela crise cafeeira, levando a um declínio na produção e à necessidade de diversificação econômica."
+    },
+    "success": {
+      "title": "Sucesso",
+      "text": "A história do café no estado do Espírito Santo está intimamente ligada ao desenvolvimento econômico da região. A cultura do café começou a se expandir no final do século XIX, adaptando-se bem às condições climáticas e geográficas favoráveis do estado."
+    },
+    "presently": {
+      "title": "Atualmente",
+      "text": "Após a crise cafeeira, o Espírito Santo buscou alternativas econômicas, mas o café ainda é a principal cultura do estado, especialmente o café tipo Conilon. O Espírito Santo é atualmente um dos principais estados produtores de café no Brasil, sendo o maior produtor brasileiro de conilon, com 75% da produção nacional do Robusta, e a variação de 8,5 a 9,5 milhões de sacas por ano."
+    }
+  },
+  "footer": {
+    "localization": "Localização",
+    "localization-info-one": "Av. Nossa Senhora dos Navegantes, 675",
+    "localization-info-two": "Palácio do Café - Enseada do Suá Vitória, Espírito Santo",
+    "navigation": "Navegação"
   }
 }

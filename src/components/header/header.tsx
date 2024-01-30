@@ -1,17 +1,17 @@
-import { useState } from "react"
-import { AntHeader } from "./ant-header"
-import { HeaderNav } from "./nav"
+import { useState } from 'react'
+import { AntHeader } from './ant-header'
+import { HeaderNav } from './nav'
 
 export const Header = () => {
   const [openMenu, setOpenMenu] = useState(false)
 
   return (
-    <header className="w-full bg-white mb-10">
+    <header className="w-full mb-4 bg-white">
       <div className="flex justify-between w-full">
         <img
           src="assets/logoBR.png"
           alt="logo GRV"
-          className="w-[200px] h-[120px] pl-8 py-3 hidden lg:flex"
+          className="w-[250px] h-[170px] pl-8 py-3 hidden lg:flex"
         />
         <div className="flex flex-col w-full lg:w-fit">
           <AntHeader />

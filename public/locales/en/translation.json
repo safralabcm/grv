@@ -1,6 +1,79 @@
 {
+  "header": {
+    "home": "Home",
+    "our-history": "Our history",
+    "our-services": "Our services",
+    "coffee-in-br": "Brazil Coffee History",
+    "coffee-in-es": "ES Coffee History",
+    "contact": "Contact"
+  },
   "main": {
-    "title": "Our success is the result",
-    "title2": "of your satisfaction"
+    "title": "Your satisfaction is the key",
+    "title2": "of our business",
+    "description": "The irresistible aroma and exceptional flavor of our coffee reflect the success of your satisfaction. Our brand prides itself on creating memorable moments in every cup, cultivating success through your contentment.",
+    "contact": "Contact us"
+  },
+  "who-we-are": {
+    "our-history": "Our History",
+    "text-one": "Since 1987, when GRV's CEO began his journey in the coffee trading, Grives has stood out for his vast knowledge of the coffee market. Together with his team, GRV offers its clients a modern working strategy, offering precise market information, crop forecasts and prices. Today, the company is a leader in the coffee brokerage market, recognized both nationally and internationally.",
+    "text-two": "GRV’s focus is providing opportunities that guarantees the effective introduction of its coffees to international markets, assisting with market research, price analysis and ultimately giving our clients the support for them to be successful on a national and international scale.",
+    "text-three": "The coffee brokerage draws on the experience of its traders to make projects feasible, leaning on specific knowledge of the subject, allowing them to allocate the right products at the right time and at a cost that is compatible for the client’s needs.",
+    "area-title-one": "Discover our",
+    "area-title-two": "fields",
+    "area-title-three": "of specialization",
+    "brokerage": "Brokerage",
+    "commercialization-coffess": "Commercialization of commercial coffees",
+    "commercialization": "Commercialization",
+    "commercialization-fine-coffess": "Commercialization of fine and specialty coffees",
+    "markets": "Physical and futures markets",
+    "verified-coffess": "Verified, certified, and organic coffees"
+  },
+  "our-services": {
+    "title": "Our qualities",
+    "text": "Coffee comes in a wide variety of types and flavors. Taste is personal and difficult to capture in words and descriptions. Below you will find some of qualities that our company offers:"
+  },
+  "brazil-history": {
+    "title": "History of coffee in Brazil",
+    "leadership": {
+      "title": "World Leadership",
+      "text": "Today, Brazil is the largest producer and exporter of coffee in the world, known for its quality and variety. Coffee growing continues to play a key role in the Brazilian economy and is an important part of the country's cultural identity"
+    },
+    "journey": {
+      "title": "Journey",
+      "text": "The history of coffee in Brazil began in the 18th century and is linked to the country's culture and economy. It is believed that coffee was introduced in 1727 in Brazil, when a sergeant smuggled coffee seeds from French Guiana to Brazil. Initially, its cultivation was restricted to a few areas, but it soon spread, becoming the country's main crop and source of wealth."
+    },
+    "growth": {
+      "title": "Growth",
+      "text": "A produção de café no Brasil passou por várias fases ao longo dos anos, impulsionando a economia brasileira no início. No entanto, a dependência excessiva do café como principal produto de exportação trouxe desafios, especialmente durante a crise do café no século XX. Isso levou o Brasil a diversificar sua economia e explorar outros setores."
+    },
+    "brazil-world": {
+      "title": "Brazil x World",
+      "text": "Brazil represents almost 40% of the world coffee production. In second place is Vietnam with a market share of almost 20%. Arabica represents 55% of the coffee production and while Robusta represents 45%. The two biggest coffee destinations are the UAE and Europe, representing equivalent of 42% of the exportations."
+    }
+  },
+  "es-history": {
+    "title": "History of coffee in Espírito Santo",
+    "emergence": {
+      "title": "Beginning",
+      "text": "In Brazil, the coffee seed arrived in Belém do Pará in 1727. From Pará, coffee was taken to Amazonas and Maranhão. However, it did not adapt to the region. In 1770 coffee was brought to Rio de Janeiro. The cultivation of coffee plantations in Espírito Santo occurred in the middle of the 19th century. The existence of the Port of Vitória further benefited the economic development of coffee in Espírito Santo. The first Conilon seeds were planted in the municipality of Cachoeiro de Itapemirim."
+    },
+    "boom-downturn": {
+      "title": "Boom and crisis",
+      "text": "Espírito Santo experienced a significant coffee boom in the late 19th and early 20th centuries. However, it was also affected by the coffee crisis, leading to a decline in production and the need for economic diversification."
+    },
+    "success": {
+      "title": "Success",
+      "text": "The history of coffee in the state of Espírito Santo is closely linked to the economic development of the region. The cultivation of coffee began to expand in the late 19th century, adapting well to the favorable climatic and geographic conditions of the state."
+    },
+    "presently": {
+      "title": "Presently",
+      "text": "After the coffee crisis, Espírito Santo sought economic alternatives, but coffee is still the state's main crop, especially Conilon coffee. Espírito Santo is currently one of the main coffee producing states in Brazil, being the largest Brazilian producer of conilon, with 75% of national Robusta production, and ranging from 8.5 to 9.5 million bags per year."
+    }
+  },
+  "footer": {
+    "localization": "Localization",
+    "localization-info-one": "Av. Nossa Senhora dos Navegantes, 675",
+    "localization-info-two": "Palácio do Café - Enseada do Suá Vitória, Espírito Santo",
+    "navigation": "Navigation"
   }
 }

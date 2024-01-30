@@ -1,43 +1,36 @@
-import { ExplanationTitle } from "../explanation/title/title"
-import { HistoryImage } from "../history-image/history-image"
+import { useTranslation } from 'react-i18next'
+import { ExplanationTitle } from '../explanation/title/title'
+import { HistoryImage } from '../history-image/history-image'
 
 export const CoffeeEsBrazil = () => {
+  const { t } = useTranslation()
+
   return (
-    <section
-      id="historiacafees"
-      className="max-w-[1600px] p-4 md:p-10 lg:py-5 lg:px-20 mb-12"
-    >
+    <section id="historiacafees" className="container !pt-0">
       <ExplanationTitle
         className="before:hidden lg:before:block"
-        title="História do café no Espírito Santo"
+        title={t('es-history.title')}
       />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center justify-center">
+      <div className="grid items-center justify-center grid-cols-1 gap-6 lg:grid-cols-2">
         <HistoryImage
-          content="Após a crise cafeeira, o Espírito Santo buscou alternativas
-              econômicas, mas o café ainda é a principal cultura do estado,
-              especialmente o café tipo Conilon. O Espírito Santo é atualmente
-              um dos principais estados produtores de café no Brasil."
-          title="Atualmente"
-          nameImage="atualmente"
-          className="bg-atualmente"
+          content={t('es-history.emergence.text')}
+          title={t('es-history.emergence.title')}
+          nameImage="surgimento"
         />
         <HistoryImage
-          content="O Espírito Santo experimentou um grande boom cafeeiro no final do
-              século XIX e início do século XX. No entanto, também foi afetado
-              pela crise cafeeira, levando a um declínio na produção e à
-              necessidade de diversificação econômica."
-          title="Boom e crise"
+          content={t('es-history.boom-downturn.text')}
+          title={t('es-history.boom-downturn.title')}
           nameImage="boom"
-          className="bg-boom"
         />
         <HistoryImage
-          content="A história do café no estado do Espírito Santo está intimamente
-              ligada ao desenvolvimento econômico da região. A cultura do café
-              começou a se expandir no final do século XIX, adaptando-se bem às
-              condições climáticas e geográficas favoráveis do estado."
-          title="Sucesso"
+          content={t('es-history.success.text')}
+          title={t('es-history.success.title')}
           nameImage="sucesso"
-          className="bg-sucesso"
+        />
+        <HistoryImage
+          content={t('es-history.presently.text')}
+          title={t('es-history.presently.title')}
+          nameImage="atualmente"
         />
       </div>
     </section>

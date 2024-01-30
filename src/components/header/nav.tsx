@@ -1,5 +1,6 @@
-import { Dispatch, SetStateAction } from "react"
-import { Item } from "./item"
+import { Dispatch, SetStateAction } from 'react'
+import { useTranslation } from 'react-i18next'
+import { Item } from './item'
 
 interface HeaderNavProps {
   isOpenMenu: boolean
@@ -7,6 +8,8 @@ interface HeaderNavProps {
 }
 
 export const HeaderNav = ({ isOpenMenu, setIsOpenMenu }: HeaderNavProps) => {
+  const { t } = useTranslation()
+
   return (
     <nav className="relative ml-auto" aria-label="Navegação para o site">
       <button
@@ -34,16 +37,16 @@ export const HeaderNav = ({ isOpenMenu, setIsOpenMenu }: HeaderNavProps) => {
       <ul
         className={`${
           isOpenMenu
-            ? "absolute opacity-100 z-50 animationToTop"
-            : "hidden animationToBottom"
+            ? 'absolute opacity-100 z-50 animationToTop'
+            : 'hidden animationToBottom'
         } absolute flex-col  border border-[#14120426] rounded bg-white px-0 right-0 w-[240px] lg:w-full mt-1 lg:mt-0 lg:py-0 gap-4 lg:bg-none lg:rounded-none lg:border-none lg:static lg:flex lg:flex-row flex-wrap lg:gap-3 justify-end lg:mr-5 items-center`}
       >
-        <Item content="Início" link="inicio" />
-        <Item content="Nossa história" link="quemsomos" />
-        <Item content="Nossos serviços" link="nossosservicos" />
-        <Item content="História do Café no BR" link="historiacafebrasil" />
-        <Item content="História do Café no ES" link="historiacafees" />
-        <Item content="Contato" link="contato" hasBorder={false} />
+        <Item content={t('header.home')} link="inicio" />
+        <Item content={t('header.our-history')} link="quemsomos" />
+        <Item content={t('header.our-services')} link="nossosservicos" />
+        <Item content={t('header.coffee-in-br')} link="historiacafebrasil" />
+        <Item content={t('header.coffee-in-es')} link="historiacafees" />
+        <Item content={t('header.contact')} link="contato" hasBorder={false} />
       </ul>
     </nav>
   )

@@ -1,3 +1,9 @@
-export const ExplanationText = ({ text }: { text: string }) => {
-  return <div className="text-sm md:text-base">{text}</div>
+export const ExplanationText = ({
+  text,
+  className,
+}: {
+  text: string
+  className?: string
+}) => {
+  return <div className={`text-sm md:text-base ${className}`}>{text}</div>
 }
