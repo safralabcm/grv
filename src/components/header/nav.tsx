@@ -23,9 +23,9 @@ export const HeaderNav = ({ isOpenMenu, setIsOpenMenu }: HeaderNavProps) => {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="lucide lucide-align-justify hover:stroke-[#1356a3]"
         >
           <line x1="3" x2="21" y1="6" y2="6" />

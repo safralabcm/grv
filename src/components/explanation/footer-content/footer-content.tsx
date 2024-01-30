@@ -1,17 +1,15 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react'
 
 export const FooterContent = ({
-  content,
-  link = "",
+  children,
+  className,
 }: {
-  content: ReactNode
-  link?: string
+  children: ReactNode
+  className?: string
 }) => {
-  const DynamicContent = link !== "" ? "a" : "p"
-
   return (
-    <DynamicContent href={link} className="text-white font-normal text-base">
-      {content}
-    </DynamicContent>
+    <div className={`text-base font-normal text-white ${className}`}>
+      {children}
+    </div>
   )
 }
