@@ -2,7 +2,7 @@ export const AntHeader = () => {
   return (
     <nav
       aria-label="Navegação de redes sociais"
-      className="bg-[#1356a3] w-full p-4 pl-12 pr-8 text-white relative mx-auto flex items-center justify-center"
+      className="bg-[#1f78de] w-full p-4 pl-12 pr-8 text-white relative mx-auto flex items-center justify-center"
     >
       <ul className="flex flex-col items-center justify-between gap-4 lg:gap-8 lg:flex-row">
         <div className="flex flex-col items-center gap-4 mx-auto my-0 md:flex-row lg:mx-0 lg:mr-auto lg:gap-0">
@@ -25,5 +25,5 @@ export const AntHeader = () => {
         </div>
       </ul>
     </nav>
-  )
-}
+  );
+};

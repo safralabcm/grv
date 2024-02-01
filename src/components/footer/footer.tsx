@@ -1,12 +1,12 @@
-import { useTranslation } from 'react-i18next'
-import { FooterContent } from '../explanation/footer-content/footer-content'
-import { FooterTitle } from '../explanation/footer-title/footer-title'
+import { useTranslation } from "react-i18next";
+import { FooterContent } from "../explanation/footer-content/footer-content";
+import { FooterTitle } from "../explanation/footer-title/footer-title";
 
 export const Footer = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
-    <footer id="contato" className="bg-[#1356a3]">
+    <footer id="contato" className="bg-[#121212]">
       <div className="container flex flex-col lg:flex-row">
         <img
           src="assets/logoBR.png"
@@ -15,11 +15,11 @@ export const Footer = () => {
         />
         <div className="flex flex-col justify-between w-full mt-0 md:flex-row">
           <div className="w-fit lg:ml-10">
-            <FooterTitle title={t('footer.localization')} />
+            <FooterTitle title={t("footer.localization")} />
             <FooterContent>
               <p>
-                {t('footer.localization-info-one')} <br />{' '}
-                {t('footer.localization-info-two')}
+                {t("footer.localization-info-one")} <br />{" "}
+                {t("footer.localization-info-two")}
               </p>
             </FooterContent>
             <iframe
@@ -37,22 +37,22 @@ export const Footer = () => {
           </div>
 
           <div className="w-fit">
-            <FooterTitle title={t('footer.navigation')} />
+            <FooterTitle title={t("footer.navigation")} />
             <ul className="flex flex-col gap-3">
               <FooterContent className="transition-all duration-200 ease-linear hover:translate-x-1">
-                <a href="#inicio">{t('header.home')}</a>
+                <a href="#inicio">{t("header.home")}</a>
               </FooterContent>
               <FooterContent className="transition-all duration-200 ease-linear hover:translate-x-1">
-                <a href="#historia">{t('header.our-history')}</a>
+                <a href="#historia">{t("header.our-history")}</a>
               </FooterContent>
               <FooterContent className="transition-all duration-200 ease-linear hover:translate-x-1">
-                <a href="#servicos">{t('header.our-services')}</a>
+                <a href="#servicos">{t("header.our-services")}</a>
               </FooterContent>
               <FooterContent className="transition-all duration-200 ease-linear hover:translate-x-1">
-                <a href="#historiacafebrasil">{t('header.coffee-in-br')}</a>
+                <a href="#historiacafebrasil">{t("header.coffee-in-br")}</a>
               </FooterContent>
               <FooterContent className="transition-all duration-200 ease-linear hover:translate-x-1">
-                <a href="historiacafees">{t('header.coffee-in-es')}</a>
+                <a href="historiacafees">{t("header.coffee-in-es")}</a>
               </FooterContent>
             </ul>
           </div>
@@ -71,5 +71,5 @@ export const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
