@@ -1,9 +1,9 @@
-import { Bean } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { ContainerListItemText } from "../explanation/container-list-item-text/container-list-item-text";
 import { ContainerList } from "../explanation/container-list/container-list";
 import { ExplanationText } from "../explanation/text";
 import { ExplanationTitle } from "../explanation/title/title";
+import { BeanCoffee } from "../icons/bean-coffee";
 import { Photo } from "../photo/photo";
 
 export const OurServices = () => {
@@ -30,11 +30,11 @@ export const OurServices = () => {
           />
           <ExplanationText text={t("our-services.text")} />
 
-          <div className="flex items-center gap-2 my-4">
-            <Bean size={20} />
+          <div className="flex items-center gap-1 my-4">
+            <BeanCoffee />
             <ExplanationTitle
-              title="Conheça nossos cafés"
-              className="!mb-0 font-normal md:text-xl after:hidden"
+              title={t("our-services.discover-our-coffees")}
+              className="!mb-0 font-semibold md:text-xl after:hidden"
             />
           </div>
           {/* <h3 className="mt-5 mb-4 text-lg md:text-2xl text-[#141414]">

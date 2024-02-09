@@ -31,7 +31,14 @@
   },
   "our-services": {
     "title": "Our qualities",
-    "text": "Coffee comes in a wide variety of types and flavors. Taste is personal and difficult to capture in words and descriptions. Below you will find some of qualities that our company offers:"
+    "text": "Coffee comes in a wide variety of types and flavors. Taste is personal and difficult to capture in words and descriptions. Below you will find some of qualities that our company offers:",
+    "discover-our-coffees": "Discover our coffees"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "fairtrade": "Fairtrade's approach enables farmers and workers to have more control over their lives and decide how to invest in their future.",
+    "4c": "4C aims at anchoring sustainability in coffee supply chains across environmental, social and economic dimensions.",
+    "rainforest": "The Rainforest Alliance certification promotes sustainable agricultural practices, environmental preservation and better living conditions for farmers."
   },
   "brazil-history": {
     "title": "History of coffee in Brazil",

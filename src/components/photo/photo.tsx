@@ -1,3 +1,13 @@
-export const Photo = ({ src, alt }: { src: string; alt: string }) => {
-  return <img className="w-1/2 rounded-lg" src={src} alt={alt} />;
+export const Photo = ({
+  src,
+  alt,
+  className,
+}: {
+  src: string;
+  alt: string;
+  className?: string;
+}) => {
+  return (
+    <img className={`w-1/2 rounded-lg ${className}`} src={src} alt={alt} />
+  );
 };

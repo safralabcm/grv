@@ -6,7 +6,7 @@ export const CoffeeHistoryBrazil = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="historiacafebrasil" className="container !pt-0">
+    <section id="historiacafebrasil" className="container ">
       <ExplanationTitle
         className="mt-4 mb-4 text-[#1C1D22]"
         title={t("brazil-history.title")}

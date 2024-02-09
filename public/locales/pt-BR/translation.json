@@ -31,7 +31,14 @@
   },
   "our-services": {
     "title": "Nossas qualidades",
-    "text": "O café tem uma grande variedade de tipos e sabores. O gosto é pessoal e difícil de capturar em palavras e descrições. Abaixo você encontra todas as qualidades com as quais nossa empresa trabalha."
+    "text": "O café tem uma grande variedade de tipos e sabores. O gosto é pessoal e difícil de capturar em palavras e descrições. Abaixo você encontra todas as qualidades com as quais nossa empresa trabalha.",
+    "discover-our-coffees": "Conheça nossos cafés"
+  },
+  "certifications": {
+    "title": "Certificações",
+    "fairtrade": "A abordagem do Comércio Justo permite que os agricultores e os trabalhadores tenham mais controlo sobre as suas vidas e decidam como investir no seu futuro.",
+    "4c": "O 4C visa ancorar a sustentabilidade nas cadeias de abastecimento de café nas dimensões ambiental, social e económica.",
+    "rainforest": "A certificação Rainforest Alliance promove práticas agrícolas sustentáveis, preservação ambiental e melhores condições de vida para os agricultores."
   },
   "brazil-history": {
     "title": "História do café no Brasil",
