@@ -44,19 +44,19 @@
     "title": "História do café no Brasil",
     "leadership": {
       "title": "Liderança Mundial",
-      "text": "Atualmente, o Brasil é o maior produtor e exportador de café do mundo, conhecido por sua qualidade e variedade. A cafeicultura continua desempenhando um papel fundamental na economia brasileira e é parte importante da identidade cultural do país"
+      "text": "Atualmente, o Brasil é o maior produtor e exportador de café do mundo, conhecido por sua qualidade e variedade. A cafeicultura continua desempenhando um papel fundamental na economia brasileira e é parte importante da identidade cultural do país. Com uma produção que abrange diversas regiões do país, desde as montanhas de Minas Gerais até as planícies do Espírito Santo, o Brasil oferece uma diversidade impressionante de sabores e perfis de café."
     },
     "journey": {
       "title": "Jornada",
-      "text": "A história do café no Brasil começou no século XVIII e está ligada à cultura e à economia do país. Acredita-se que o café tenha sido introduzido em 1727, quando um sargento contrabandeou sementes de café da Guiana Francesa. Inicialmente, seu cultivo era restrito a algumas áreas, mas logo se espalhou, tornando-se a principal cultura e fonte de riqueza do país."
+      "text": "A história do café no Brasil começou no século XVIII e está ligada à cultura e à economia do país. Acredita-se que o café tenha sido introduzido em 1727, quando um sargento contrabandeou sementes de café da Guiana Francesa.Inicialmente, seu cultivo era restrito a algumas áreas, mas logo se espalhou, tornando-se a principal cultura e fonte de riqueza do país."
     },
     "growth": {
       "title": "Crescimento",
-      "text": "A produção de café no Brasil passou por várias fases ao longo dos anos, impulsionando a economia brasileira no início. No entanto, a dependência excessiva do café como principal produto de exportação trouxe desafios, especialmente durante a crise do café no século XX. Isso levou o Brasil a diversificar sua economia e explorar outros setores."
+      "text": "A produção de café no Brasil passou por várias fases ao longo dos anos, impulsionando a economia brasileira no início. No entanto, a dependência excessiva do café como principal produto de exportação trouxe desafios, especialmente durante a crise do café no século XX. Isso levou o Brasil a diversificar sua economia e explorar outros setores.  De 2022 a 2023, a produção de café aumentou 6%. Nos últimos anos, o Conilon aumentou sua participação na produção mundial de café, gerando um aumento na participação do Brasil na produção mundial. Especialista indicam que a tendência é que a produção de café arábica e conilon se igualem no futuro."
     },
     "brazil-world": {
       "title": "Brasil x Mundo",
-      "text": "O Brasil representa quase 40% da produção mundial de café. Em segundo lugar está o Vietnã, com uma participação de mercado de quase 20%. O Arábica representa 55% da produção de café e o Robusta representa 45%. Os dois maiores destinos do café são os EUA e a Europa, representando o equivalente a 42% das exportações."
+      "text": "O Brasil representa quase 40% da produção mundial de café, consolidando sua posição como líder global na indústria cafeeira. Em segundo lugar está o Vietnã, contribuindo com quase 20% da produção total, refletindo o crescimento significativo da cafeicultura nesse país. O café Arábica continua a ser o tipo predominante, representando 55% da produção global, reconhecido por sua qualidade superior e aroma refinado. Por outro lado, o café Robusta responde por 45% da produção, valorizado por sua resistência a doenças e maior teor de cafeína. Os dois maiores destinos para o café brasileiro são os Estados Unidos e a Europa, que juntos absorvem aproximadamente 42% das exportações do país."
     }
   },
   "es-history": {
@@ -67,18 +67,23 @@
     },
     "boom-downturn": {
       "title": "Boom e Crise",
-      "text": "O Espírito Santo experimentou um grande boom cafeeiro no final do século XIX e início do século XX. No entanto, também foi afetado pela crise cafeeira, levando a um declínio na produção e à necessidade de diversificação econômica."
+      "text": "O Espírito Santo experimentou um grande boom cafeeiro no final do século XIX e início do século XX, adaptando-se bem às condições climáticas e geográficas do estado. No entanto, Em decorrência da intensificação das crises de preços, a cafeicultura passou por severas adversidades nas décadas de 1950 e 1960. A política federal de erradicação dos cafezais, que tinha objetivo de diversificar a economia capixaba e controlar os preços através a eliminação de 1 bilhoes de prés de café,  afetou diretamente a economia capixaba e expôs sua a forte dependência da monocultura de tal produto agrícola, levando a um declínio na produção e à necessidade de diversificação econômica "
     },
     "success": {
-      "title": "Sucesso",
-      "text": "A história do café no estado do Espírito Santo está intimamente ligada ao desenvolvimento econômico da região. A cultura do café começou a se expandir no final do século XIX, adaptando-se bem às condições climáticas e geográficas favoráveis do estado."
+      "title": "O sucesso",
+      "text": "A história do café no estado do Espírito Santo está intimamente ligada ao desenvolvimento econômico da região. A cultura do café começou a se expandir no final do século XIX, adaptando-se bem às condições climáticas e geográficas favoráveis do estado. O Espírito Santo rapidamente se tornou um dos principais produtores de café do Brasil, impulsionando a economia local e atraindo investimentos para a região. Com o passar dos anos, a qualidade dos cafés capixabas se destacou no mercado nacional e internacional, conquistando prêmios e reconhecimento por sua excelência."
     },
     "presently": {
       "title": "Atualmente",
-      "text": "Após a crise cafeeira, o Espírito Santo buscou alternativas econômicas, mas o café ainda é a principal cultura do estado, especialmente o café tipo Conilon. O Espírito Santo é atualmente um dos principais estados produtores de café no Brasil, sendo o maior produtor brasileiro de conilon, com 75% da produção nacional do Robusta, e a variação de 8,5 a 9,5 milhões de sacas por ano."
+      "text": "Após a crise cafeeira, o Espírito Santo buscou alternativas econômicas, mas o café continua sendo a principal cultura do estado, especialmente o café tipo Conilon. O Espírito Santo é atualmente um dos principais estados produtores de café no Brasil, sendo o maior produtor brasileiro de conilon, com 75% da produção nacional do Robusta. Além disso, a produção anual varia entre 8,5 a 9,5 milhões de sacas por ano, demonstrando a robustez e o impacto significativo que o café tem na economia local."
     }
   },
   "footer": {
+    "location": {
+      "title": "Venha nos visitar e conhecer nossas especialidades ou agende uma reunião",
+      "text": "Conheça a qualidade dos nossos cafés ou agende uma reunião para discutir suas necessidades.",
+      "button": "Iniciar contato"
+    },
     "localization": "Localização",
     "localization-info-one": "Av. Nossa Senhora dos Navegantes, 675",
     "localization-info-two": "Palácio do Café - Enseada do Suá Vitória, Espírito Santo",

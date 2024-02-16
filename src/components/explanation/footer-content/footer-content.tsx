@@ -1,15 +1,17 @@
-import { ReactNode } from 'react'
+import { ReactNode } from "react";
 
 export const FooterContent = ({
   children,
   className,
 }: {
-  children: ReactNode
-  className?: string
+  children: ReactNode;
+  className?: string;
 }) => {
   return (
-    <div className={`text-base font-normal text-white ${className}`}>
+    <div
+      className={`font-normal text-[#141204] tracking-wide text-base md:text-lg  ${className}`}
+    >
       {children}
     </div>
-  )
-}
+  );
+};

@@ -1,7 +1,7 @@
 import { withTranslation } from "react-i18next";
 import { Certifications } from "./components/certifications/certifications";
-import { CoffeeEsBrazil } from "./components/coffe-es-history";
 import { CoffeeHistoryBrazil } from "./components/coffee-brazil-history";
+import { CoffeeEsBrazil } from "./components/coffee-es-history";
 import { Footer } from "./components/footer/footer";
 import { Header } from "./components/header/header";
 import { Main } from "./components/main/main";
