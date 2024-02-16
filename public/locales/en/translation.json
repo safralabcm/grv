@@ -1,6 +1,7 @@
 {
   "header": {
     "home": "Home",
+    "history": "History",
     "our-history": "Our history",
     "our-services": "Our services",
     "coffee-in-br": "Brazil Coffee History",
@@ -30,13 +31,20 @@
   },
   "our-services": {
     "title": "Our qualities",
-    "text": "Coffee comes in a wide variety of types and flavors. Taste is personal and difficult to capture in words and descriptions. Below you will find some of qualities that our company offers:"
+    "text": "Coffee comes in a wide variety of types and flavors. Taste is personal and difficult to capture in words and descriptions. Below you will find some of qualities that our company offers:",
+    "discover-our-coffees": "Discover our coffees"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "fairtrade": "Fairtrade's approach enables farmers and workers to have more control over their lives and decide how to invest in their future.",
+    "4c": "4C aims at anchoring sustainability in coffee supply chains across environmental, social and economic dimensions.",
+    "rainforest": "The Rainforest Alliance certification promotes sustainable agricultural practices, environmental preservation and better living conditions for farmers."
   },
   "brazil-history": {
     "title": "History of coffee in Brazil",
     "leadership": {
       "title": "World Leadership",
-      "text": "Today, Brazil is the largest producer and exporter of coffee in the world, known for its quality and variety. Coffee growing continues to play a key role in the Brazilian economy and is an important part of the country's cultural identity"
+      "text": "Currently, Brazil is the largest producer and exporter of coffee in the world, known for its quality and variety. Coffee cultivation continues to play a key role in the Brazilian economy and is an important part of the country's cultural identity. With production spanning diverse regions of the country, from the mountains of Minas Gerais to the plains of Espírito Santo, Brazil offers an impressive diversity of flavors and coffee profiles."
     },
     "journey": {
       "title": "Journey",
@@ -44,11 +52,11 @@
     },
     "growth": {
       "title": "Growth",
-      "text": "A produção de café no Brasil passou por várias fases ao longo dos anos, impulsionando a economia brasileira no início. No entanto, a dependência excessiva do café como principal produto de exportação trouxe desafios, especialmente durante a crise do café no século XX. Isso levou o Brasil a diversificar sua economia e explorar outros setores."
+      "text": "Coffee production in Brazil has gone through several phases over the years, boosting the Brazilian economy at first. However, the over-reliance on coffee as the main export product brought challenges, especially during the coffee crisis in the 20th century. This led Brazil to diversify its economy and explore other sectors. From 2022-2023 coffee production increased 6%. In recent years, Conilon has increased its share of world coffee production, generating an increase in Brazil's share of world production. The tendency is for the production of arabica and Conilon coffee to be equal."
     },
     "brazil-world": {
       "title": "Brazil x World",
-      "text": "Brazil represents almost 40% of the world coffee production. In second place is Vietnam with a market share of almost 20%. Arabica represents 55% of the coffee production and while Robusta represents 45%. The two biggest coffee destinations are the UAE and Europe, representing equivalent of 42% of the exportations."
+      "text": "The Brazil represents almost 40% of the world's coffee production, consolidating its position as a global leader in the coffee industry. In second place is Vietnam, contributing nearly 20% of the total production, reflecting the significant growth of coffee cultivation in this country. Arabica coffee continues to be the predominant type, accounting for 55% of global production, recognized for its superior quality and refined aroma. On the other hand, Robusta coffee accounts for 45% of production, valued for its disease resistance and higher caffeine content. The two largest destinations for Brazilian coffee are the United States and Europe, together absorbing approximately 42% of the country's exports."
     }
   },
   "es-history": {
@@ -59,18 +67,23 @@
     },
     "boom-downturn": {
       "title": "Boom and crisis",
-      "text": "Espírito Santo experienced a significant coffee boom in the late 19th and early 20th centuries. However, it was also affected by the coffee crisis, leading to a decline in production and the need for economic diversification."
+      "text": "Espírito Santo experienced a major coffee boom at the end of the 19th century and beginning of the 20th century, adapting well to the state's climatic and geographical conditions. However, as a result of the intensification of price crises, coffee farming went through severe adversities in the 1950s and 1960s. The federal policy of eradicating coffee plantations, which aimed to diversify the Espírito Santo economy and control prices through the elimination of 1 billions of coffee prices, directly affected the Espírito Santo economy and exposed its strong dependence on monoculture of this agricultural product, leading to a decline in production and the need for economic diversification"
     },
     "success": {
-      "title": "Success",
-      "text": "The history of coffee in the state of Espírito Santo is closely linked to the economic development of the region. The cultivation of coffee began to expand in the late 19th century, adapting well to the favorable climatic and geographic conditions of the state."
+      "title": "The Success",
+      "text": "The history of coffee in the state of Espírito Santo is closely intertwined with the economic development of the region. Coffee cultivation began to expand in the late 19th century, thriving under the favorable climatic and geographical conditions of the state. Espírito Santo quickly emerged as one of Brazil's leading coffee producers, driving the local economy and attracting investments to the region. Over the years, the quality of Capixaba coffees has stood out in both the national and international markets, earning awards and recognition for their excellence."
     },
     "presently": {
       "title": "Presently",
-      "text": "After the coffee crisis, Espírito Santo sought economic alternatives, but coffee is still the state's main crop, especially Conilon coffee. Espírito Santo is currently one of the main coffee producing states in Brazil, being the largest Brazilian producer of conilon, with 75% of national Robusta production, and ranging from 8.5 to 9.5 million bags per year."
+      "text": "After the coffee crisis, Espírito Santo sought economic alternatives, but coffee remains the state's main crop, especially the Conilon type. Espírito Santo is currently one of the main coffee-producing states in Brazil, being the largest producer of Brazilian Conilon, accounting for 75% of the national Robusta production. Additionally, the annual production ranges from 8.5 to 9.5 million bags per year, demonstrating the strength and significant impact that coffee has on the local economy."
     }
   },
   "footer": {
+    "location": {
+      "title": "Visit us to discover our specialties or schedule a meeting",
+      "text": "Experience the quality of our coffees or schedule a meeting to discuss your needs.",
+      "button": "Start Contact"
+    },
     "localization": "Localization",
     "localization-info-one": "Av. Nossa Senhora dos Navegantes, 675",
     "localization-info-two": "Palácio do Café - Enseada do Suá Vitória, Espírito Santo",

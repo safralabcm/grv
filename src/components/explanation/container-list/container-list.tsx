@@ -1,5 +1,11 @@
-import { ReactNode } from "react"
+import { ReactNode } from "react";
 
-export const ContainerList = ({ children }: { children: ReactNode }) => {
-  return <div className="flex flex-col gap-4">{children}</div>
-}
+export const ContainerList = ({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) => {
+  return <ul className={`flex flex-col gap-4 ${className}`}>{children}</ul>;
+};
