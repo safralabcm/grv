@@ -81,7 +81,7 @@ export const Footer = () => {
             </div>
 
             <div className="w-fit">
-              <FooterTitle title="Coffe Traders" />
+              <FooterTitle title="Coffee Traders" />
               <ul className="flex flex-col gap-3">
                 <FooterContent>
                   <a href="mailto:bruna@grvcoffee.com">bruna@grvcoffee.com</a>

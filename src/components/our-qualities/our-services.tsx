@@ -47,7 +47,7 @@ export const OurServices = () => {
             <article>
               <h1 className="text-xl font-medium">Arábica</h1>
               <ContainerList className="mt-4">
-                <ContainerListItemText content="Semi Whased 15UP" />
+                <ContainerListItemText content="Semi washed 15UP" />
                 <ContainerListItemText content="Fine Cup 17/18 & 14/16" />
                 <ContainerListItemText content="Grinders FC 13UP/12UP" />
                 <ContainerListItemText content="Good Cup 17/18 & 14/16" />
