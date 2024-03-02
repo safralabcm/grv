@@ -8,7 +8,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { ButtonSwiper } from "../button-swiper";
 
 export const CoffeeEsBrazil = () => {
   const { t } = useTranslation();
@@ -18,25 +17,25 @@ export const CoffeeEsBrazil = () => {
       id: "1",
       content: t("es-history.emergence.text"),
       title: t("es-history.emergence.title"),
-      preview: "/assets/surgimento.jpg",
+      preview: "/assets/surgimento.png",
     },
     {
       id: "2",
       content: t("es-history.boom-downturn.text"),
       title: t("es-history.boom-downturn.title"),
-      preview: "/assets/boom.jpg",
+      preview: "/assets/boom.png",
     },
     {
       id: "3",
       content: t("es-history.success.text"),
       title: t("es-history.success.title"),
-      preview: "/assets/sucesso.jpg",
+      preview: "/assets/sucesso.png",
     },
     {
       id: "4",
       content: t("es-history.presently.text"),
       title: t("es-history.presently.title"),
-      preview: "/assets/atualmente.jpg",
+      preview: "/assets/atualmente.png",
     },
   ];
 
@@ -46,18 +45,14 @@ export const CoffeeEsBrazil = () => {
         className="mt-4 mb-4 text-[#1C1D22]"
         title={t("es-history.title")}
       />
-      <div className="relative w-full shadow-[0_0px_20px_10px] shadow-black/10 rounded-2xl overflow-hidden">
-        <ButtonSwiper
-          nextButtonClassname="next-button-br"
-          prevButtonClassname="prev-button-br"
-        />
+      <div className="w-full shadow-[0_0px_20px_10px] shadow-black/10 rounded-2xl overflow-hidden">
         <Swiper
           modules={[Navigation]}
           spaceBetween={50}
           slidesPerView={1}
           navigation={{
-            nextEl: ".next-button-br",
-            prevEl: ".prev-button-br",
+            nextEl: ".next-button-es",
+            prevEl: ".prev-button-es",
             disabledClass: "swiper-button-disabled",
           }}
         >
@@ -67,6 +62,8 @@ export const CoffeeEsBrazil = () => {
                 content={item.content}
                 title={item.title}
                 preview={item.preview}
+                nextButtonClassname="next-button-es"
+                prevButtonClassname="prev-button-es"
               />
             </SwiperSlide>
           ))}

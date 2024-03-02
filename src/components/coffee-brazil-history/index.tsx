@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { ButtonSwiper } from "../button-swiper";
 import { CardHistory } from "../card-history";
 
 export const CoffeeHistoryBrazil = () => {
@@ -18,13 +17,13 @@ export const CoffeeHistoryBrazil = () => {
       id: "1",
       content: t("brazil-history.leadership.text"),
       title: t("brazil-history.leadership.title"),
-      preview: "/assets/lideranca.jpg",
+      preview: "/assets/lideranca.png",
     },
     {
       id: "2",
       content: t("brazil-history.journey.text"),
       title: t("brazil-history.journey.title"),
-      preview: "/assets/jornada.jpg",
+      preview: "/assets/jornada.png",
     },
     {
       id: "3",
@@ -36,7 +35,7 @@ export const CoffeeHistoryBrazil = () => {
       id: "4",
       content: t("brazil-history.brazil-world.text"),
       title: t("brazil-history.brazil-world.title"),
-      preview: "/assets/brazil-world.jpg",
+      preview: "/assets/brazil-world.png",
     },
   ];
 
@@ -46,29 +45,29 @@ export const CoffeeHistoryBrazil = () => {
         className="mt-4 mb-4 text-[#1C1D22]"
         title={t("brazil-history.title")}
       />
-      <div className="relative w-full shadow-[0_0px_20px_10px] shadow-black/10 rounded-2xl overflow-hidden">
-        <ButtonSwiper
-          nextButtonClassname="next-button-es"
-          prevButtonClassname="prev-button-es"
-        />
+      <div className="w-full h-fit shadow-[0_0px_20px_10px] shadow-black/10 rounded-2xl overflow-hidden">
         <Swiper
           modules={[Navigation]}
           spaceBetween={50}
           slidesPerView={1}
           navigation={{
-            nextEl: ".next-button-es",
-            prevEl: ".prev-button-es",
+            nextEl: ".next-button-brazil",
+            prevEl: ".prev-button-brazil",
             disabledClass: "swiper-button-disabled",
           }}
         >
           {coffeeEsHistoryData.map((item) => (
-            <SwiperSlide key={item.id}>
-              <CardHistory
-                content={item.content}
-                title={item.title}
-                preview={item.preview}
-              />
-            </SwiperSlide>
+            <div key={item.id}>
+              <SwiperSlide>
+                <CardHistory
+                  content={item.content}
+                  title={item.title}
+                  preview={item.preview}
+                  nextButtonClassname="next-button-brazil"
+                  prevButtonClassname="prev-button-brazil"
+                />
+              </SwiperSlide>
+            </div>
           ))}
         </Swiper>
       </div>
