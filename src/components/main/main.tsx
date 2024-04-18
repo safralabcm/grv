@@ -6,31 +6,22 @@ export const Main = () => {
   return (
     <main
       id="inicio"
-      style={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url("/assets/main-bg.jpg")`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-      }}
-      className="flex items-center justify-center main-bg"
+      className="relative overflow-hidden after:absolute after:left-0 after:top-0 after:w-full after:h-full after:opacity-0 after:transition-all hover:after:opacity-40 group"
     >
-      <div className="flex flex-col items-center text-center text-white">
-        <h1 className="text-3xl font-bold leading-tight md:text-4xl lg:text-5xl">
-          {t("main.title")}
-          <br />
+      <img
+        src="/assets/main-bg.jpg"
+        alt="Imagem representativa do café"
+        className="object-cover object-center w-full h-[26rem] md:h-[35rem] md:max-h-[40rem] transition-all ease-linear duration-200 group-hover:scale-110 brightness-50"
+      />
+      <div className="absolute bottom-0  flex flex-col justify-center items-start md:items-end text-center text-white left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
+        <h3 className="text-xl leading-none md:text-2xl">{t("main.title")}</h3>
+        <h1 className="text-6xl pacifico-regular md:text-8xl">
           {t("main.title2")}
         </h1>
-        <p className="text-base lg:text-lg py-4 px-4 md:px-10 max-w-3xl text-[#D3D3D3]">
-          {t("main.description")}
-        </p>
-
-        <a
-          className="flex py-2 px-6 bg-[#1f78de] gap-1 text-white rounded-full text-lg mt-4 items-center"
-          href="mailto:bruna@grvcoffee.com"
-        >
-          {t("main.contact")}
-          <img src="/icons/envelope-simple.svg" className="phone-icon" />
-        </a>
+        <h3 className="my-2 text-xl md:text-2xl">{t("main.title3")}</h3>
+        <h1 className="text-6xl pacifico-regular md:text-8xl">
+          {t("main.title4")}
+        </h1>
       </div>
     </main>
   );

@@ -9,15 +9,17 @@
     "contact": "Contato"
   },
   "main": {
-    "title": "O nosso sucesso é fruto",
-    "title2": "da sua satisfação",
-    "description": "Há 35 anos trabalhando com responsabilidade, qualidade, compromisso e confiança. Somos líderes no mercado de corretagem de café, reconhecido no mercado interno e externo, contando com parcerias consolidadas que confiam no nosso trabalho ao redor do mundo.",
+    "title": "O nosso",
+    "title2": "Sucesso",
+    "title3": "é o fruto da sua",
+    "title4": "Satisfação",
+    "description": "Iniciamos em 1987 trabalhando com responsabilidade, qualidade, compromisso e confiança. Somos atuantes no mercado de corretagem de café e com reconhecimento no mercado interno e externo, contando com parcerias consolidadas que confiam no nosso trabalho ao redor do mundo.",
     "contact": "Entre em contato"
   },
   "who-we-are": {
     "our-history": "Nossa História",
-    "text-one": "Desde 1987, quando o CEO da GRV iniciou sua jornada na comercialização de café, Grives se destacou pelo vasto conhecimento do mercado cafeeiro. Juntamente com sua equipe, a GRV oferece aos seus clientes uma moderna estratégia de trabalho, oferecendo informações precisas de mercado, previsões de safra e preços. Hoje, a empresa é líder no mercado de corretagem de café, reconhecida nacional e internacionalmente.",
-    "text-two": "O foco da GRV é proporcionar oportunidades que garantam a efetiva introdução de seus cafés nos mercados internacionais, auxiliando na pesquisa de mercado, análise de preços e, em última análise, dando aos nossos clientes o suporte para que tenham sucesso em escala nacional e internacional.",
+    "text-one": "Desde 1987, quando o CEO da GRV iniciou sua jornada na corretagem de café, Grives se destacou pelo vasto conhecimento do mercado cafeeiro. Juntamente com sua equipe, a GRV oferece aos seus clientes uma moderna estratégia de trabalho, oferecendo informações precisas de mercado, previsões de safra e preços. Hoje, a empresa é reconhecida no mercado de corretagem de café, nacional e internacionalmente.",
+    "text-two": "O foco da GRV é proporcionar oportunidades que garantam a efetiva introdução de seus cafés nos mercados internos e externos, auxiliando na pesquisa de mercado, análise de preços e, em última análise, dando aos nossos clientes o suporte para que tenham sucesso em escala nacional e internacional.",
     "text-three": "A corretora de café se vale da experiência de seus traders para viabilizar projetos, apoiando-se em conhecimentos específicos do assunto, permitindo-lhes alocar os produtos certos, no momento certo e com custo compatível com a necessidade do cliente.",
     "area-title-one": "Conheça nossas",
     "area-title-two": "áreas",
@@ -31,8 +33,7 @@
   },
   "our-services": {
     "title": "Nossas qualidades",
-    "text": "O café tem uma grande variedade de tipos e sabores. O gosto é pessoal e difícil de capturar em palavras e descrições. Abaixo você encontra todas as qualidades com as quais nossa empresa trabalha.",
-    "discover-our-coffees": "Conheça nossos cafés"
+    "text": "O café tem uma grande variedade de tipos, sabores e peneira. A qualidade comercializada varia do país de destino e do comprador. Abaixo você encontra todas as qualidades com as quais nossa empresa trabalha."
   },
   "certifications": {
     "title": "Certificações",
@@ -44,7 +45,7 @@
     "title": "História do café no Brasil",
     "leadership": {
       "title": "Liderança Mundial",
-      "text": "Atualmente, o Brasil é o maior produtor e exportador de café do mundo, conhecido por sua qualidade e variedade. A cafeicultura continua desempenhando um papel fundamental na economia brasileira e é parte importante da identidade cultural do país. Com uma produção que abrange diversas regiões do país, desde as montanhas de Minas Gerais até as planícies do Espírito Santo, o Brasil oferece uma diversidade impressionante de sabores e perfis de café."
+      "text": "Atualmente, o Brasil é o maior produtor e exportador de café do mundo e 2º maior consumidor, conhecido por sua qualidade e variedade. A cafeicultura continua desempenhando um papel fundamental na economia brasileira e é parte importante da identidade cultural do país. Com uma produção que abrange diversas regiões como: Minas gerais, Espirito Santo, São Paulo, Bahia, Rondonia, Paraná e outros"
     },
     "journey": {
       "title": "Jornada",
